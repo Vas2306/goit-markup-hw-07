@@ -234,16 +234,13 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.section-skill__list
- {
+.section-skill__list {
   display: flex;
 }
-.section-skill__item + .section-skill__item
- {
+.section-skill__item + .section-skill__item {
   margin-left: 30px;
 }
-.caption-skill__title
- {
+.caption-skill__title {
   margin-bottom: 10px;
 
   color: var(--color-title);
@@ -251,16 +248,14 @@ img {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.caption-skill__text
- {
+.caption-skill__text {
   margin-bottom: 0;
   margin-top: 0;
 
   font-size: 14px;
   line-height: 1.71;
 }
-.section-skill__thumb
- {
+.section-skill__thumb {
   display: flex;
   width: 270px;
   height: 120px;
@@ -268,12 +263,10 @@ img {
   align-items: center;
   background-color: var(--color-button-team);
 }
-.section-skill__logo
- {
+.section-skill__logo {
   margin: 0;
 }
-.section-skill__caption
- {
+.section-skill__caption {
   margin-top: 30px;
 }
 /* -------------------Три одиноких цветных фото */
@@ -681,19 +674,8 @@ img {
   margin-left: 13px;
 }
 
-.form-email {
-  width: 570px;
-}
-
-.email-field {
-  width: 358px;
-
-  display: block;
-  position: relative;
-}
-
 .email-input {
-  width: 100%;
+  width: 358px;
   padding-top: 15px;
   padding-bottom: 15px;
   font: inherit;
@@ -710,13 +692,6 @@ img {
   color: var(--color-text-white);
 }
 
-.form-email .email-label {
-  position: absolute;
-  bottom: 50%;
-  transform: translateY(50%);
-  left: 16px;
-}
-
 .footer .subscribe-text {
   font-size: 14px;
   line-height: 1.14;
@@ -725,10 +700,6 @@ img {
   display: block;
   margin-bottom: 20px;
   color: var(--color-text-white);
-}
-
-.email-field:focus-within > .email-label {
-  visibility: hidden;
 }
 
 .form-email .btn-telegram {
@@ -756,7 +727,7 @@ img {
   background-color: var(--color-btn-active);
 }
 
-.subscribe .email-position {
+.form-email {
   display: flex;
   gap: 12px;
 }
@@ -769,16 +740,11 @@ img {
   padding-left: 28px;
 }
 
-.btn-telegram .email-icon {
+.icon-in {
   display: block;
   width: 24px;
   height: 24px;
-}
 
-.email-icon .icon-in {
-  display: block;
-  width: 100%;
-  height: 100%;
   fill: var(--color-text-white);
 }
 
@@ -816,6 +782,7 @@ img {
   left: 50%;
   width: 528px;
   min-height: 581px;
+  padding: 40px;
   border-radius: 4px;
 
   background-color: var(--color-text-white);
@@ -836,12 +803,13 @@ img {
   background: var(--color-text-white);
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-modal-close:hover {
   fill: var(--color-acent);
 }
 
-.form .form-title {
+.form-title {
   display: block;
   margin-bottom: 12px;
   font-weight: 700;
@@ -855,7 +823,6 @@ img {
 .form {
   margin-left: auto;
   margin-right: auto;
-  padding: 40px;
 }
 
 .form-field {
@@ -933,6 +900,7 @@ img {
   color: var(--color-text);
   display: flex;
   align-items: center;
+  justify-content: center;
   position: relative;
 }
 
