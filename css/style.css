@@ -173,7 +173,7 @@ img {
   max-width: 1600px;
   margin: 0 auto;
 }
-.hero.overlay {
+.hero--overlay {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -188,14 +188,14 @@ img {
   background-position: center;
   background-size: cover;
 }
-.container-hero {
+.hero__container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
-.hero-title {
+.hero__title {
   max-width: 696px;
   margin-bottom: 30px;
   margin-right: auto;
@@ -208,7 +208,7 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.btn-hero {
+.button--hero {
   padding: 10px 32px;
 
   font-family: inherit;
@@ -223,23 +223,27 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn-hero:hover,
-.btn-hero:focus {
+.button--hero:hover,
+.button--hero:focus {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 /* --------------------SVG ешки с текстом под ними */
+
 .section-skill {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.skill-list {
+.section-skill__list
+ {
   display: flex;
 }
-.skill-list .item + .item {
+.section-skill__item + .section-skill__item
+ {
   margin-left: 30px;
 }
-.skill-list .title {
+.caption-skill__title
+ {
   margin-bottom: 10px;
 
   color: var(--color-title);
@@ -247,14 +251,16 @@ img {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.skill-list .text {
+.caption-skill__text
+ {
   margin-bottom: 0;
   margin-top: 0;
 
   font-size: 14px;
   line-height: 1.71;
 }
-.skill-list .thumb {
+.section-skill__thumb
+ {
   display: flex;
   width: 270px;
   height: 120px;
@@ -262,10 +268,12 @@ img {
   align-items: center;
   background-color: var(--color-button-team);
 }
-.skill-list .logo {
+.section-skill__logo
+ {
   margin: 0;
 }
-.logo-caption {
+.section-skill__caption
+ {
   margin-top: 30px;
 }
 /* -------------------Три одиноких цветных фото */
