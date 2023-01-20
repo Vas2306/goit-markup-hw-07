@@ -780,7 +780,6 @@ img {
   pointer-events: none;
   visibility: hidden;
 }
-
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(1.1);
 }
@@ -811,7 +810,6 @@ img {
   cursor: pointer;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .button-modal-close:hover {
   fill: var(--color-acent);
 }
@@ -837,11 +835,6 @@ img {
   flex-direction: column;
   margin-bottom: 10px;
 }
-
-.last-child {
-  margin-bottom: 20px;
-}
-
 .form-field .form-label {
   margin-bottom: 4px;
   font-weight: 400;
@@ -850,7 +843,6 @@ img {
   letter-spacing: 0.01em;
   color: var(--color-text);
 }
-
 .form-field .form-input {
   width: 100%;
   margin: 0;
@@ -859,6 +851,10 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: transparent;
+}
+
+.last-child {
+  margin-bottom: 20px;
 }
 
 .form-input:focus {
@@ -881,17 +877,19 @@ img {
   outline: transparent;
   resize: none;
 }
-
 .form-field .comment::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-
 .form-field .comment:focus {
   border-color: var(--color-acent);
 }
 
 .form-policy {
   margin-bottom: 30px;
+}
+.form-policy .link-contract {
+  margin-left: 8px;
+  color: var(--color-acent);
 }
 
 .policy {
@@ -923,12 +921,7 @@ img {
   fill: var(--color-text-white);
 }
 
-.form-policy .link-contract {
-  margin-left: 8px;
-  color: var(--color-acent);
-}
-
-.form .form-icon {
+.form-icon {
   display: block;
   width: 18px;
   height: 18px;
@@ -938,12 +931,12 @@ img {
   margin-left: 12px;
 }
 
-.form .input-wrap {
+.input-wrap {
   display: block;
   position: relative;
 }
 
-.form .btn-form {
+.btn-form {
   padding: 10px 52px;
   display: block;
   margin: 0 auto;
@@ -960,8 +953,6 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.form .btn-form:hover,
-.form .btn-form:focus {
+.btn-form:hover, .btn-form:focus {
   background-color: var(--color-btn-active);
 }/*# sourceMappingURL=main.css.map */
