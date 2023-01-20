@@ -887,11 +887,11 @@ img {
   border-color: var(--color-acent);
 }
 
-.form .form-policy {
+.form-policy {
   margin-bottom: 30px;
 }
 
-.form-policy .policy {
+.policy {
   font-size: 14px;
   line-height: 1.71;
 
@@ -904,7 +904,7 @@ img {
   position: relative;
 }
 
-.policy .check-policy {
+.check-policy {
   width: 16px;
   height: 15px;
   border: 2px solid var(--color-title);
