@@ -221,9 +221,7 @@ img {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.button--hero:hover,
-.button--hero:focus {
+.button--hero:hover, .button--hero:focus {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -330,14 +328,12 @@ img {
   display: flex;
   justify-content: space-between;
 }
-
 .team-list .item {
   text-align: center;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .team-list .title {
   margin-bottom: 10px;
   font-size: 16px;
@@ -346,7 +342,6 @@ img {
   line-height: 1.19;
   margin-bottom: 10px;
 }
-
 .team-list .text {
   margin-top: 0;
   margin-bottom: 16px;
@@ -362,17 +357,17 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
-/* ----------------------Социальные сети под портретами */
 .footer-card .social-media {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
-
 .footer-card .item-social {
   width: 44px;
   height: 44px;
+}
+.footer-card .team-social-icon {
+  fill: currentColor;
 }
 
 .footer-card .link-team {
@@ -386,13 +381,7 @@ img {
   color: var(--color-icon);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-card .team-social-icon {
-  fill: currentColor;
-}
-
-.footer-card .link-team:hover,
-.footer-card .link-team:focus {
+.footer-card .link-team:hover, .footer-card .link-team:focus {
   background-color: var(--color-acent);
   color: var(--color-text-white);
 }
